@@ -1,0 +1,155 @@
+body, html {
+  margin: 0;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
+
+
+
+h1 {
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625em;
+  color: #333333;
+}
+
+p {
+ color: #333333;
+ line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profilo-img {
+  width: 300px;
+  height: 300px;
+  margin: 100px auto 100px auto;
+	border: 5px solid white;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  padding-bottom: 100px;
+}
+
+.skill-row {
+  margin: 100px auto 100px;
+  width: 50%;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.pro {
+  text-transform: uppercase;
+}
+
+.top-container {
+  background-color: #87cefa;
+  position: relative;
+  padding-top: 100px;
+  color: #333333;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 250px;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+  color: black;
+}
+
+.BUTTON_RTM {
+  background:    #3d85c6;
+ background:    linear-gradient(#333333, black);
+ border-radius: 1000px;
+ padding:       8px 19px;
+ color:         white;
+ display:       inline-block;
+ font:          "Montserrat", sans-serif;
+ text-align:     center;
+ text-shadow:   2px 2px #000000;
+ margin: 2% auto 5% auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.footer-link {
+  font-size: 200%;
+  padding: 10px;
+  color: #221f32;
+}
+
+.footer-copy {
+  color: #221f32;
+}
